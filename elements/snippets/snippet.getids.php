@@ -13,7 +13,7 @@
 /* set default properties */
 $ids = (!empty($ids) || $ids === '0') ? explode(',', $ids) : array($modx->resource->get('id'));
 $depth = isset($depth) ? (integer) $depth : $scriptProperties['depth'];
-$sampleSize = (isset($sampleSize) && $sampleSize !== "") ? intval($sampleSize) : 10;
+$sampleSize = (isset($sampleSize) && $sampleSize !== "") ? intval($sampleSize) : $scriptProperties['subsample_size'];
 
 $ids = array_map('trim',$ids);
 $resIds = array();
