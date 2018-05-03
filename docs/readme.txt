@@ -1,12 +1,12 @@
-# GetIds
+# GetIdList
 
-Version: 1.2.1-rc1
+Version: 1.2.2-pl
 
-Date: 2018.03.06
+Date: 2018.05.03
 
 Authors: Coroicor, jcdm, jonathanhaslett
 
-A general purpose snippet to get a list of resource ids for MODX Revolution.
+A general purpose snippet to get a list of resource ids for MODX Revolution. A fork of GetIds. GetIdList is a drop-in replacement for GetIds.
 
 Released under GNU Public License 2.0 https://opensource.org/licenses/GPL-2.0
 
@@ -20,15 +20,15 @@ Released under GNU Public License 2.0 https://opensource.org/licenses/GPL-2.0
 
 ids as `[ [+| |-] [c| |p|s]integer ]` where:
 
-`-` : exclude ids             
+`-` : exclude ids
 
 `+` or `''` : include ids (default)
 
-`p` : parents resources                           
+`p` : parents resources
 
 `c` : children resources
 
-`s` : provide a subsample of children             
+`s` : provide a subsample of children
 
 `''` : current resource
 

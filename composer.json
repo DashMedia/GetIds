@@ -1,6 +1,6 @@
 {
-    "name": "dashmeida/GetIds",
-    "description": "A general purpose snippet to get a list of resource ids for MODX Revolution.",
+    "name": "dashmedia/GetIdList",
+    "description": "A general purpose snippet to get a list of resource ids for MODX Revolution. A fork of GetIds. GetIdList is a drop-in replacement for GetIds.",
     "type": "modx-package",
     "keywords": ["modx","repoman"],
     "homepage": "https://github.com/DashMedia/GetIds",
@@ -31,10 +31,10 @@
         "classmap":["model/"]
     },
     "extra": {
-        "package_name": "GetIds",
+        "package_name": "GetIdList",
         "namespace": "getids",
-        "version": "1.2.1",
-        "release": "rc1",
+        "version": "1.2.2",
+        "release": "pl",
         "category":"GetIds",
         "docs_path" : "docs/",
         "seeds_path": ["model/seeds/"]
