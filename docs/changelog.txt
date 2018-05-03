@@ -1,5 +1,10 @@
 Changelog for GetIds snippet.
 
+GetIdsList 1.2.2-pl
+---------------
+
+- Changed the name and updated documentation to clarify the relationship with the original GetIds project.
+
 GetIds 1.2.1-rc1
 ---------------
 
